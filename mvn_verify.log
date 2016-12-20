@@ -1,0 +1,270 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building gs-rest-service 0.1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ gs-rest-service ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\dev\VW\testing\workspace-STS\SpringBootJMeterTest\src\main\resources
+[INFO] skip non existing resourceDirectory C:\dev\VW\testing\workspace-STS\SpringBootJMeterTest\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ gs-rest-service ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ gs-rest-service ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\dev\VW\testing\workspace-STS\SpringBootJMeterTest\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ gs-rest-service ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ gs-rest-service ---
+[INFO] Surefire report directory: C:\dev\VW\testing\workspace-STS\SpringBootJMeterTest\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+13:57:36.966 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class hello.GreetingControllerTests]
+13:57:36.977 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+13:57:36.988 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+13:57:37.010 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [hello.GreetingControllerTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+13:57:37.021 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [hello.GreetingControllerTests], using SpringBootContextLoader
+13:57:37.024 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [hello.GreetingControllerTests]: class path resource [hello/GreetingControllerTests-context.xml] does not exist
+13:57:37.025 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [hello.GreetingControllerTests]: class path resource [hello/GreetingControllerTestsContext.groovy] does not exist
+13:57:37.025 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [hello.GreetingControllerTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+13:57:37.026 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [hello.GreetingControllerTests]: GreetingControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+13:57:37.075 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [hello.GreetingControllerTests]
+13:57:37.118 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+13:57:37.118 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+13:57:37.118 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+13:57:37.127 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [hello/] to resources [URL [file:/C:/dev/VW/testing/workspace-STS/SpringBootJMeterTest/target/test-classes/hello/], URL [file:/C:/dev/VW/testing/workspace-STS/SpringBootJMeterTest/target/classes/hello/]]
+13:57:37.128 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\dev\VW\testing\workspace-STS\SpringBootJMeterTest\target\test-classes\hello]
+13:57:37.128 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\dev\VW\testing\workspace-STS\SpringBootJMeterTest\target\test-classes\hello] for files matching pattern [C:/dev/VW/testing/workspace-STS/SpringBootJMeterTest/target/test-classes/hello/*.class]
+13:57:37.130 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\dev\VW\testing\workspace-STS\SpringBootJMeterTest\target\classes\hello]
+13:57:37.131 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\dev\VW\testing\workspace-STS\SpringBootJMeterTest\target\classes\hello] for files matching pattern [C:/dev/VW/testing/workspace-STS/SpringBootJMeterTest/target/classes/hello/*.class]
+13:57:37.132 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:hello/*.class] to resources [file [C:\dev\VW\testing\workspace-STS\SpringBootJMeterTest\target\test-classes\hello\GreetingControllerTests.class], file [C:\dev\VW\testing\workspace-STS\SpringBootJMeterTest\target\classes\hello\Application.class], file [C:\dev\VW\testing\workspace-STS\SpringBootJMeterTest\target\classes\hello\Greeting.class], file [C:\dev\VW\testing\workspace-STS\SpringBootJMeterTest\target\classes\hello\GreetingController.class]]
+13:57:37.175 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\dev\VW\testing\workspace-STS\SpringBootJMeterTest\target\classes\hello\Application.class]
+13:57:37.184 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration hello.Application for test class hello.GreetingControllerTests
+13:57:37.187 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [hello.GreetingControllerTests]: using defaults.
+13:57:37.190 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+13:57:37.199 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+13:57:37.203 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+13:57:37.204 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@44a664f2, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7f9fcf7f, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2357d90a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6328d34a, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@145eaa29, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@15bb6bea, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@8b96fde, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2d2e5f00, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4c40b76e, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2ea6137]
+13:57:37.207 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [hello.GreetingControllerTests]
+13:57:37.208 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [hello.GreetingControllerTests]
+Running hello.GreetingControllerTests
+13:57:37.210 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class hello.GreetingControllerTests]
+13:57:37.210 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+13:57:37.210 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+13:57:37.211 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [hello.GreetingControllerTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+13:57:37.211 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [hello.GreetingControllerTests], using SpringBootContextLoader
+13:57:37.212 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [hello.GreetingControllerTests]: class path resource [hello/GreetingControllerTests-context.xml] does not exist
+13:57:37.212 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [hello.GreetingControllerTests]: class path resource [hello/GreetingControllerTestsContext.groovy] does not exist
+13:57:37.212 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [hello.GreetingControllerTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+13:57:37.212 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [hello.GreetingControllerTests]: GreetingControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+13:57:37.220 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [hello.GreetingControllerTests]
+13:57:37.221 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+13:57:37.222 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+13:57:37.222 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+13:57:37.222 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration hello.Application for test class hello.GreetingControllerTests
+13:57:37.224 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [hello.GreetingControllerTests]: using defaults.
+13:57:37.227 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+13:57:37.231 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+13:57:37.232 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+13:57:37.232 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@48524010, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4b168fa9, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1a84f40f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@23282c25, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7920ba90, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6b419da, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3b2da18f, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5906ebcb, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@258e2e41, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3d299e3]
+13:57:37.233 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [hello.GreetingControllerTests]
+13:57:37.233 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [hello.GreetingControllerTests]
+13:57:37.234 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [hello.GreetingControllerTests]
+13:57:37.234 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [hello.GreetingControllerTests]
+13:57:37.239 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@13acb0d1 testClass = GreetingControllerTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@3e3047e6 testClass = GreetingControllerTests, locations = '{}', classes = '{class hello.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.ImportsContextCustomizer@2bd0e396, org.springframework.boot.test.context.SpringBootTestContextCustomizer@7d907bac, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@6325a3ee, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@e7e8512, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@72b6cbcc], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
+13:57:37.240 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [hello.GreetingControllerTests]
+13:57:37.240 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [hello.GreetingControllerTests]
+13:57:37.263 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+13:57:37.264 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+13:57:37.264 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+13:57:37.265 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+13:57:37.265 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [Inlined Test Properties] PropertySource with highest search precedence
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.4.2.RELEASE)
+
+2016-12-20 13:57:37.727  INFO 7352 --- [           main] hello.GreetingControllerTests            : Starting GreetingControllerTests on PC46746 with PID 7352 (started by POSSES in C:\dev\VW\testing\workspace-STS\SpringBootJMeterTest)
+2016-12-20 13:57:37.728  INFO 7352 --- [           main] hello.GreetingControllerTests            : No active profile set, falling back to default profiles: default
+2016-12-20 13:57:37.746  INFO 7352 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@2767e23c: startup date [Tue Dec 20 13:57:37 CET 2016]; root of context hierarchy
+2016-12-20 13:57:39.406  INFO 7352 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring FrameworkServlet ''
+2016-12-20 13:57:39.406  INFO 7352 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2016-12-20 13:57:39.660  INFO 7352 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/greeting]}" onto public hello.Greeting hello.GreetingController.greeting(java.lang.String)
+2016-12-20 13:57:39.667  INFO 7352 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-12-20 13:57:39.668  INFO 7352 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-12-20 13:57:39.712  INFO 7352 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-20 13:57:39.712  INFO 7352 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-20 13:57:39.732  INFO 7352 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-20 13:57:39.790  INFO 7352 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@2767e23c: startup date [Tue Dec 20 13:57:37 CET 2016]; root of context hierarchy
+2016-12-20 13:57:39.905  INFO 7352 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 498 ms
+2016-12-20 13:57:40.072  INFO 7352 --- [           main] hello.GreetingControllerTests            : Started GreetingControllerTests in 2.796 seconds (JVM running for 3.466)
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /greeting
+       Parameters = {}
+          Headers = {}
+
+Handler:
+             Type = hello.GreetingController
+           Method = public hello.Greeting hello.GreetingController.greeting(java.lang.String)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = {Content-Type=[application/json;charset=UTF-8]}
+     Content type = application/json;charset=UTF-8
+             Body = {"id":1,"content":"Hello, World!"}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /greeting
+       Parameters = {name=[Spring Community]}
+          Headers = {}
+
+Handler:
+             Type = hello.GreetingController
+           Method = public hello.Greeting hello.GreetingController.greeting(java.lang.String)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = {Content-Type=[application/json;charset=UTF-8]}
+     Content type = application/json;charset=UTF-8
+             Body = {"id":2,"content":"Hello, Spring Community!"}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.069 sec - in hello.GreetingControllerTests
+2016-12-20 13:57:40.298  INFO 7352 --- [       Thread-1] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@2767e23c: startup date [Tue Dec 20 13:57:37 CET 2016]; root of context hierarchy
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.6:jar (default-jar) @ gs-rest-service ---
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:1.4.2.RELEASE:repackage (default) @ gs-rest-service ---
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:1.4.2.RELEASE:start (start-app-before-jmeter) @ gs-rest-service ---
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.4.2.RELEASE)
+
+2016-12-20 13:57:41.995  INFO 2852 --- [lication.main()] hello.Application                        : Starting Application on PC46746 with PID 2852 (C:\dev\VW\testing\workspace-STS\SpringBootJMeterTest\target\classes started by POSSES in C:\dev\VW\testing\workspace-STS\SpringBootJMeterTest)
+2016-12-20 13:57:41.998  INFO 2852 --- [lication.main()] hello.Application                        : No active profile set, falling back to default profiles: default
+2016-12-20 13:57:42.056  INFO 2852 --- [lication.main()] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@17f53324: startup date [Tue Dec 20 13:57:42 CET 2016]; root of context hierarchy
+2016-12-20 13:57:43.493  INFO 2852 --- [lication.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2016-12-20 13:57:43.508  INFO 2852 --- [lication.main()] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-12-20 13:57:43.509  INFO 2852 --- [lication.main()] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.6
+2016-12-20 13:57:43.606  INFO 2852 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-12-20 13:57:43.606  INFO 2852 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1550 ms
+2016-12-20 13:57:43.772  INFO 2852 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2016-12-20 13:57:43.776  INFO 2852 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-12-20 13:57:43.777  INFO 2852 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-12-20 13:57:43.777  INFO 2852 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-12-20 13:57:43.777  INFO 2852 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2016-12-20 13:57:44.048  INFO 2852 --- [lication.main()] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@17f53324: startup date [Tue Dec 20 13:57:42 CET 2016]; root of context hierarchy
+2016-12-20 13:57:44.123  INFO 2852 --- [lication.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/greeting]}" onto public hello.Greeting hello.GreetingController.greeting(java.lang.String)
+2016-12-20 13:57:44.127  INFO 2852 --- [lication.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-12-20 13:57:44.127  INFO 2852 --- [lication.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-12-20 13:57:44.156  INFO 2852 --- [lication.main()] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-20 13:57:44.156  INFO 2852 --- [lication.main()] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-20 13:57:44.194  INFO 2852 --- [lication.main()] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-20 13:57:44.333  INFO 2852 --- [lication.main()] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-12-20 13:57:44.385  INFO 2852 --- [lication.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2016-12-20 13:57:44.389  INFO 2852 --- [lication.main()] hello.Application                        : Started Application in 2.845 seconds (JVM running for 10.769)
+[INFO] 
+[INFO] >>> jmeter-maven-plugin:2.0.3:jmeter (jmeter-tests) > :configure @ gs-rest-service >>>
+[INFO] 
+[INFO] --- jmeter-maven-plugin:2.0.3:configure (configure) @ gs-rest-service ---
+[INFO] -------------------------------------------------------
+[INFO]  Configuring JMeter...
+[INFO] -------------------------------------------------------
+[INFO] 
+[INFO] <<< jmeter-maven-plugin:2.0.3:jmeter (jmeter-tests) < :configure @ gs-rest-service <<<
+[INFO] 
+[INFO] --- jmeter-maven-plugin:2.0.3:jmeter (jmeter-tests) @ gs-rest-service ---
+[INFO]  
+[INFO] -------------------------------------------------------
+[INFO]  P E R F O R M A N C E    T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Invalid value detected for <postTestPauseInSeconds>.  Setting pause to 0...
+[INFO]  
+[INFO]  
+[INFO] Executing test: test.jmx
+[INFO] Writing log file to: C:\dev\VW\testing\workspace-STS\SpringBootJMeterTest\target\jmeter\logs\test.jmx.log
+[INFO] Creating summariser <summary>
+[INFO] Created the tree successfully using C:\dev\VW\testing\workspace-STS\SpringBootJMeterTest\target\jmeter\testFiles\test.jmx
+[INFO] Starting the test @ Tue Dec 20 13:57:47 CET 2016 (1482238667614)
+[INFO] Waiting for possible Shutdown/StopTestNow/Heapdump message on port 4445
+2016-12-20 13:57:47.879  INFO 2852 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-12-20 13:57:47.879  INFO 2852 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2016-12-20 13:57:47.900  INFO 2852 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 21 ms
+[INFO] summary =    120 in 00:00:02 =   62,2/s Avg:     7 Min:     1 Max:   227 Err:     0 (0,00%)
+[INFO] Tidying up ...    @ Tue Dec 20 13:57:49 CET 2016 (1482238669609)
+[INFO] ... end of run
+[INFO] Completed Test: test.jmx
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:1.4.2.RELEASE:stop (post-integration-test) @ gs-rest-service ---
+[INFO] Stopping application...
+2016-12-20 13:57:49.937  INFO 2852 --- [           main] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2016-12-20 13:57:49.938  INFO 2852 --- [           main] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@17f53324: startup date [Tue Dec 20 13:57:42 CET 2016]; root of context hierarchy
+2016-12-20 13:57:49.939  INFO 2852 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 15.278 s
+[INFO] Finished at: 2016-12-20T13:57:50+01:00
+[INFO] Final Memory: 37M/521M
+[INFO] ------------------------------------------------------------------------
+[INFO] Shutdown detected, destroying JMeter process...
